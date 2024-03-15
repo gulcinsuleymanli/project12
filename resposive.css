@@ -1,0 +1,24 @@
+@media screen and (max-width: 450px) {
+    .button {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    :root {
+        --product-row-count: 2;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    :root {
+        --product-row-count: 1;
+    }
+
+    .product h3 {
+        font-size: 18px;
+    }
+
+}
